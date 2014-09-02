@@ -18,16 +18,34 @@ public class Menu : MonoBehaviour
 	
 	}
 
-	public void LoadLevel() 
+	public void LoadSingleGame()
 	{
 		if (Name != null) 
 		{
-			Debug.Log("CHECK");
 			Debug.Log(Name.text);
 			Settings.PLAYER_NAME = Name.text;
 		}
 		Debug.Log("welcome " + Settings.PLAYER_NAME.ToString());
 		Settings.GAME_TYPE = 0;
+
+		LoadLevel ();
+	}
+
+	public void LoadMultiGame()
+	{
+		if (Name != null) 
+		{
+			Debug.Log(Name.text);
+			Settings.PLAYER_NAME = Name.text;
+		}
+		Debug.Log("welcome " + Settings.PLAYER_NAME.ToString());
+		Settings.GAME_TYPE = 1;
+		
+		LoadLevel ();
+	}
+
+	void LoadLevel() 
+	{
 		Application.LoadLevel (1);
 	}
 }
