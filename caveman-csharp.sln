@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{50E22D53-558D-95C3-6C47-9489685FEB2A}") = "caveman", "Assembly-CSharp-vs.csproj", "{B04FFF1B-AF28-817F-DE7C-4DA9B89178CB}"
 EndProject
+Project("{50E22D53-558D-95C3-6C47-9489685FEB2A}") = "caveman", "Assembly-CSharp-Editor-vs.csproj", "{0667D8CE-6D3B-7B24-1277-FF2F94B5F1D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{B04FFF1B-AF28-817F-DE7C-4DA9B89178CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B04FFF1B-AF28-817F-DE7C-4DA9B89178CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B04FFF1B-AF28-817F-DE7C-4DA9B89178CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0667D8CE-6D3B-7B24-1277-FF2F94B5F1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0667D8CE-6D3B-7B24-1277-FF2F94B5F1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0667D8CE-6D3B-7B24-1277-FF2F94B5F1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0667D8CE-6D3B-7B24-1277-FF2F94B5F1D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																		GlobalSection(MonoDevelopProperties) = preSolution
+																																																				GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

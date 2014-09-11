@@ -41,7 +41,7 @@ public class Menu : MonoBehaviour
 		Debug.Log("welcome " + Settings.PLAYER_NAME.ToString());
 		Settings.GAME_TYPE = 1;
 		
-		LoadLevel ();
+		LoadLevel();
 	}
 
 	void LoadLevel() 
