@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 using AssemblyCSharp;
 
 public class Menu : MonoBehaviour 
